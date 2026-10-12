@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | JoyCodes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <a href="index.html" class="logo">JC<span>.</span> <small>JoyCodes</small></a>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <a href="#contact-form" class="nav-button">Send a Message <span>↗</span></a>
+    </header>
+
+    <main>
+
+        <!-- Contact hero -->
+        <section class="contact-hero">
+            <div class="contact-intro">
+                <p class="contact-label"><span></span> YOUR NEXT IDEA STARTS HERE</p>
+
+                <h1>
+                    Let's make<br>
+                    something<br>
+                    <span>remarkable.</span>
+                </h1>
+
+                <p class="contact-description">
+                    Every great project starts with a conversation.
+                    Have an idea, a question, or want to connect?
+                    I'd love to hear from you.
+                </p>
+
+                <div class="contact-availability">
+                    <span class="availability-dot"></span>
+                    <span>Open to conversations and creative ideas</span>
+                </div>
+
+                <div class="contact-details">
+                    <div class="contact-detail">
+                        <span class="detail-icon">✉</span>
+                        <div>
+                            <small>EMAIL</small>
+                            <strong>Add your email address</strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="detail-icon">⌘</span>
+                        <div>
+                            <small>PORTFOLIO</small>
+                            <strong>JoyCodes · Digital Creativity</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-socials">
+                    <span>FIND ME ONLINE</span>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                </div>
+            </div>
+
+            <!-- Contact form -->
+            <div class="contact-form-wrap" id="contact-form">
+                <div class="form-heading">
+                    <span class="form-step">LET'S CONNECT / 01</span>
+                    <h2>Send a message<span>.</span></h2>
+                    <p>Fill in the details below to get the conversation started.</p>
+                </div>
+
+                <form class="joy-contact-form" action="mailto:YOUR-EMAIL@example.com" method="post" enctype="text/plain">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="contact-name">Your name</label>
+                            <input type="text" id="contact-name" name="Name" placeholder="What should I call you?" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="contact-email">Your email</label>
+                            <input type="email" id="contact-email" name="Email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-subject">What is this about?</label>
+                        <select id="contact-subject" name="Subject" required>
+                            <option value="" disabled selected>Choose a topic</option>
+                            <option value="Website design">Website design</option>
+                            <option value="Project collaboration">Project collaboration</option>
+                            <option value="Data Science">Data Science</option>
+                            <option value="General enquiry">General enquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-message">Your message</label>
+                        <textarea id="contact-message" name="Message" rows="5" placeholder="Tell me a little about your idea..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-submit">
+                        Send Your Message <span>↗</span>
+                    </button>
+
+                    <p class="form-note">
+                        Your message will be prepared in your default email app.
+                        You may need to confirm sending there.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Closing banner -->
+        <section class="contact-bottom">
+            <div class="contact-bottom-mark">JC.</div>
+
+            <p class="contact-label"><span></span> UNTIL THE NEXT BIG IDEA</p>
+
+            <h2>Thanks for stopping<br><span>by my little corner.</span></h2>
+
+            <p>
+                Keep exploring. Keep creating. Keep becoming.
+            </p>
+
+            <a href="index.html" class="contact-home-button">Back to Home ↗</a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <a href="index.html" class="logo">JC<span>.</span> <small>JoyCodes</small></a>
+        <p>Designed with curiosity. Built with purpose.</p>
+        <span>© 2026 JoyCodes</span>
+    </footer>
+
+</body>
+</html>
